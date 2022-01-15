@@ -17,7 +17,7 @@
 	function CheckIfTooMuch (string,$scope){
 		// body... 
 		
-		if (string === undefined){
+		if (string == undefined || string == ''){
 			$scope.message = "Please enter data first";
 	 	 
 		} else {
